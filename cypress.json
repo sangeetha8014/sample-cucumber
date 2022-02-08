@@ -1,0 +1,9 @@
+{
+    "testFiles": "**/*.feature",
+    "ignoreTestFile":["*.js"],
+    "projectId": "oky3xm"
+  }
+   
+
+
+

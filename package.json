@@ -1,0 +1,23 @@
+{
+  "name": "sample-cy-cucumber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:dashboard": "cypress run --record --key 7b222d63-efe6-4767-b5d7-68f76665cd7f"
+  },
+  "author": "",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "process": "^0.11.10"
+  },
+  "devDependencies": {
+    "cypress": "^9.4.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "description": ""
+}
